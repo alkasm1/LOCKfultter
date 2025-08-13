@@ -1,0 +1,18 @@
+name: keynova_lock
+description: قفل بصري باستخدام صورة + كلمة مرور
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^8.0.0
+  crypto: ^3.0.2
+  provider: ^6.0.0
+
+flutter:
+  assets:
+    - assets/images/key1.png
+    # أضف هنا أي صور إضافية تريد تضمينها
